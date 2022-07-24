@@ -28,7 +28,7 @@ const StyleCard = ({style}) => {
                 className="download" 
                 href={"data:text/plain;charset=utf-8," + encodeURIComponent(JSON.stringify(style, null, 4 ))} 
                 download={"opd"+style.name +".json"}
-            >Download .json</a>
+            >Download JSON</a>
         </div>
     )
 }

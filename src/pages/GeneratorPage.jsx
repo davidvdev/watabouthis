@@ -8,6 +8,10 @@ const GeneratorPage = ({genType}) => {
 
     const location = useLocation()
     const generator = location.pathname.substring(1) || genType
+    const generatorText = generator.split("-")
+        .map(word => word.charAt(0).toUpperCase() + word.substring(1))
+        .join(" ")
+
     const getStyles = () => {
         switch (generator) {
             case "one-page-dungeon":
@@ -18,12 +22,12 @@ const GeneratorPage = ({genType}) => {
     }
 
     return(
-        <>
+        <div className="App">
         <Header />
-        <h1>{generator}</h1>
-        {getStyles().map(style => <StyleCard style={style}/>)}
+        <h1>{generatorText}</h1>
+        {getStyles().map((style,index) => <StyleCard style={style} key={style.name+"-"+index}/>)}
         <Footer />
-        </>
+        </div>
     )
 }
 
