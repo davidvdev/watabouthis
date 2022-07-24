@@ -1,0 +1,267 @@
+[
+    {
+        "name": "ancient",
+        "colorInk": "#2C241D",
+        "colorShading": "#BFBEB6",
+        "colorWater": "#99665C",
+        "colorBg": "#D9D5C3",
+        "colorPaper": "#E5E2CF",
+        "strokeThin": "0.5",
+        "strokeHatching": "0.5",
+        "strokeNormal": "1.5",
+        "strokeThick": "3.0",
+        "shadowColor": "#B2A097",
+        "shadowDist": "0.4",
+        "hatchingStyle": "Stonework",
+        "hatchingStrokes": "3",
+        "hatchingSize": "0.4",
+        "hatchingDistance": "0.6",
+        "fontTitle": {
+          "italic": false,
+          "bold": true,
+          "face": null,
+          "size": 48,
+          "embedded": "title_font"
+        },
+        "fontStory": {
+          "italic": true,
+          "bold": false,
+          "face": null,
+          "size": 24,
+          "embedded": "story_font"
+        },
+        "fontNotes": {
+          "italic": false,
+          "bold": false,
+          "face": null,
+          "size": 20,
+          "embedded": "notes_font"
+        },
+        "fontLegend": {
+          "italic": false,
+          "bold": false,
+          "face": null,
+          "size": 24,
+          "embedded": "notes_font"
+        },
+        "fontSymbols": {
+          "italic": false,
+          "bold": true,
+          "face": null,
+          "size": 30,
+          "embedded": "ref_font"
+        }
+      },
+      {
+        "name": "blackboard",
+        "colorInk": "#EEEEEE",
+        "colorShading": "#333333",
+        "colorWater": "#646070",
+        "colorBg": "#333333",
+        "colorPaper": "#222222",
+        "strokeThin": "0.5",
+        "strokeHatching": "1.0",
+        "strokeNormal": "1.5",
+        "strokeThick": "3.0",
+        "shadowColor": "#A9A0B2",
+        "shadowDist": "0.3",
+        "hatchingStyle": "Default",
+        "hatchingStrokes": "3",
+        "hatchingSize": "0.5",
+        "hatchingDistance": "0.5",
+        "fontTitle": {
+          "italic": false,
+          "size": 48,
+          "face": null,
+          "bold": true,
+          "embedded": "title_font"
+        },
+        "fontStory": {
+          "italic": true,
+          "size": 24,
+          "face": null,
+          "bold": false,
+          "embedded": "story_font"
+        },
+        "fontNotes": {
+          "italic": false,
+          "size": 20,
+          "face": null,
+          "bold": false,
+          "embedded": "notes_font"
+        },
+        "fontLegend": {
+          "italic": false,
+          "size": 24,
+          "face": null,
+          "bold": false,
+          "embedded": "notes_font"
+        },
+        "fontSymbols": {
+          "italic": false,
+          "size": 30,
+          "face": null,
+          "bold": true,
+          "embedded": "ref_font"
+        }
+      },
+      {
+        "name": "default",
+        "colorInk": "#222022",
+        "colorShading": "#CCCECE",
+        "colorWater": "#CCCECE",
+        "colorBg": "#F8F8F4",
+        "colorPaper": "#F8F8F4",
+        "strokeThin": "0.5",
+        "strokeHatching": "1.0",
+        "strokeNormal": "1.5",
+        "strokeThick": "3.0",
+        "shadowColor": "#CCCCCC",
+        "shadowDist": "0.2",
+        "hatchingStyle": "Default",
+        "hatchingStrokes": "3",
+        "hatchingSize": "0.33",
+        "hatchingDistance": "0.5",
+        "fontTitle": {
+          "face": null,
+          "embedded": "title_font",
+          "size": 48,
+          "bold": true,
+          "italic": false
+        },
+        "fontStory": {
+          "face": null,
+          "embedded": "story_font",
+          "size": 24,
+          "bold": false,
+          "italic": true
+        },
+        "fontNotes": {
+          "face": null,
+          "embedded": "notes_font",
+          "size": 20,
+          "bold": false,
+          "italic": false
+        },
+        "fontLegend": {
+          "face": null,
+          "embedded": "notes_font",
+          "size": 24,
+          "bold": false,
+          "italic": false
+        },
+        "fontSymbols": {
+          "face": null,
+          "embedded": "ref_font",
+          "size": 30,
+          "bold": false,
+          "italic": false
+        }
+      },
+      {
+        "name": "light",
+        "colorInk": "#000000",
+        "colorShading": "#FFFFFF",
+        "colorWater": "#EEEEEE",
+        "colorBg": "#FFFFFF",
+        "colorPaper": "#FFFFFF",
+        "strokeThin": "0.3",
+        "strokeHatching": "0.3",
+        "strokeNormal": "1.0",
+        "strokeThick": "2.0",
+        "shadowColor": "#FFFFFF",
+        "shadowDist": "0.2",
+        "hatchingStyle": "Default",
+        "hatchingStrokes": "4",
+        "hatchingSize": "0.25",
+        "hatchingDistance": "0.3",
+        "fontTitle": {
+          "embedded": "title_font",
+          "italic": false,
+          "bold": true,
+          "face": "Neuton Regular",
+          "size": 48
+        },
+        "fontStory": {
+          "embedded": "story_font",
+          "italic": true,
+          "bold": false,
+          "face": null,
+          "size": 20
+        },
+        "fontNotes": {
+          "italic": false,
+          "size": 18,
+          "face": null,
+          "bold": false,
+          "embedded": "notes_font"
+        },
+        "fontLegend": {
+          "italic": false,
+          "size": 20,
+          "face": null,
+          "bold": false,
+          "embedded": "notes_font"
+        },
+        "fontSymbols": {
+          "embedded": "ref_font",
+          "italic": false,
+          "bold": true,
+          "face": "Neuton Regular",
+          "size": 30
+        }
+      },
+      {
+        "name": "modern",
+        "colorInk": "#000000",
+        "colorShading": "#000000",
+        "colorWater": "#DAE5E3",
+        "colorBg": "#F2F2F2",
+        "colorPaper": "#FFFFFF",
+        "strokeThin": "0.5",
+        "strokeHatching": "0.5",
+        "strokeNormal": "1.0",
+        "strokeThick": "2.0",
+        "shadowColor": "#FFFFFF",
+        "shadowDist": "0.1",
+        "hatchingStyle": "Bricks",
+        "hatchingStrokes": "3",
+        "hatchingSize": "0.5",
+        "hatchingDistance": "0.67",
+        "fontTitle": {
+          "italic": false,
+          "size": 48,
+          "face": null,
+          "bold": true,
+          "embedded": "title_font"
+        },
+        "fontStory": {
+          "italic": true,
+          "size": 24,
+          "face": null,
+          "bold": false,
+          "embedded": "story_font"
+        },
+        "fontNotes": {
+          "italic": false,
+          "size": 20,
+          "face": null,
+          "bold": false,
+          "embedded": "notes_font"
+        },
+        "fontLegend": {
+          "italic": false,
+          "size": 24,
+          "face": null,
+          "bold": false,
+          "embedded": "notes_font"
+        },
+        "fontSymbols": {
+          "italic": false,
+          "size": 30,
+          "face": null,
+          "bold": true,
+          "embedded": "ref_font"
+        }
+      }
+]
