@@ -1,4 +1,6 @@
 import { useLocation } from "react-router"
+import Header from "../components/Header"
+import Footer from "../components/Footer"
 import StyleCard from "../components/StyleCard"
 import opdStyles from '../../jsonStyles/one-page-dungeon-styles.json'
 
@@ -17,9 +19,10 @@ const GeneratorPage = ({genType}) => {
 
     return(
         <>
+        <Header />
         <h1>{generator}</h1>
         {getStyles().map(style => <StyleCard style={style}/>)}
-
+        <Footer />
         </>
     )
 }

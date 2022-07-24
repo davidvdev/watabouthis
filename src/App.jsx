@@ -1,14 +1,13 @@
-import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import logo from './logo.svg'
 import './App.css'
-import GeneratorPage from './pages/GeneratorPage'
+import Footer from './components/Footer'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
+      <h1>Watabouthis?</h1>
+      <p>An unofficial styles and themes repository for Watabou's procedural generators!</p>
       <ul>
       <Link to="/one-page-dungeon" ><li>One Page Dungeon Styles</li></Link>
       <Link to="/perilous-shores"><li>Perilous Shores Styles</li></Link>
@@ -18,6 +17,7 @@ function App() {
       <Link to="/village"><li>Village Styles</li></Link>
       <Link to="/cave"><li>Cave Styles</li></Link>
       </ul>
+      <Footer />
     </div>
   )
 }
