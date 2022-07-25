@@ -1,0 +1,182 @@
+[
+    {
+        "name": "default",
+        "paper": "#EEEEEE",
+        "light": "#EEEEEE",
+        "medium": "#444444",
+        "dark": "#444444",
+        "font": {
+          "face": null,
+          "embedded": null,
+          "size": 72,
+          "bold": false,
+          "italic": false
+        },
+        "north": "N",
+        "east": "E",
+        "south": "S",
+        "west": "W"
+      },
+      {
+        "name": "summer",
+        "paper": "#FFFAF2",
+        "light": "#FFFFCC",
+        "medium": "#14663D",
+        "dark": "#332823",
+        "font": {
+          "face": null,
+          "embedded": null,
+          "size": 72,
+          "bold": false,
+          "italic": false
+        },
+        "north": "N",
+        "east": "E",
+        "south": "S",
+        "west": "W"
+      },
+      {
+        "name": "autumn",
+        "paper": "#DFDAE5",
+        "light": "#E5C316",
+        "medium": "#993F2D",
+        "dark": "#4C2639",
+        "font": {
+          "face": null,
+          "embedded": null,
+          "size": 72,
+          "bold": false,
+          "italic": false
+        },
+        "north": "N",
+        "east": "E",
+        "south": "S",
+        "west": "W"
+      },
+      {
+        "name": "winter",
+        "paper": "#DAE6F2",
+        "light": "#FFFFFF",
+        "medium": "#7A95CB",
+        "dark": "#232633",
+        "font": {
+          "face": null,
+          "embedded": null,
+          "size": 72,
+          "bold": false,
+          "italic": false
+        },
+        "north": "N",
+        "east": "E",
+        "south": "S",
+        "west": "W"
+      },
+      {
+        "name": "spring",
+        "paper": "#F4FFF2",
+        "light": "#FFE5E9",
+        "medium": "#3D993D",
+        "dark": "#1F164C",
+        "font": {
+          "face": null,
+          "embedded": null,
+          "size": 72,
+          "bold": false,
+          "italic": false
+        },
+        "north": "N",
+        "east": "E",
+        "south": "S",
+        "west": "W"
+      },
+      {
+        "name": "neon",
+        "paper": "#1E1E66",
+        "light": "#B2B26B",
+        "medium": "#7F337F",
+        "dark": "#7FFFFF",
+        "font": {
+          "face": null,
+          "embedded": null,
+          "size": 72,
+          "bold": false,
+          "italic": false
+        },
+        "north": "N",
+        "east": "E",
+        "south": "S",
+        "west": "W"
+      },
+      {
+        "name": "fire",
+        "paper": "#321E22",
+        "light": "#980F0F",
+        "medium": "#E5892D",
+        "dark": "#FFFFCC",
+        "font": {
+          "face": null,
+          "embedded": null,
+          "size": 72,
+          "bold": false,
+          "italic": false
+        },
+        "north": "N",
+        "east": "E",
+        "south": "S",
+        "west": "W"
+      },
+      {
+        "name": "ash",
+        "paper": "#191919",
+        "light": "#333333",
+        "medium": "#999999",
+        "dark": "#7F2626",
+        "font": {
+          "face": null,
+          "embedded": null,
+          "size": 72,
+          "bold": false,
+          "italic": false
+        },
+        "north": "N",
+        "east": "E",
+        "south": "S",
+        "west": "W"
+      },
+      {
+        "name": "ocean",
+        "paper": "#E6F0F2",
+        "light": "#FFFAE5",
+        "medium": "#1E5B99",
+        "dark": "#190F4C",
+        "font": {
+          "face": null,
+          "embedded": null,
+          "size": 72,
+          "bold": false,
+          "italic": false
+        },
+        "north": "N",
+        "east": "E",
+        "south": "S",
+        "west": "W"
+      },
+      {
+        "name": "stencil",
+        "paper": "#FFFFFF",
+        "light": "#FFFFFF",
+        "medium": "#FFFFFF",
+        "dark": "#000000",
+        "font": {
+          "face": null,
+          "embedded": null,
+          "size": 72,
+          "bold": false,
+          "italic": false
+        },
+        "north": "N",
+        "east": "E",
+        "south": "S",
+        "west": "W"
+      }
+]

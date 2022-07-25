@@ -1,0 +1,44 @@
+[
+    {
+        "name": "parchment",
+        "colorPage": "#CCBBA3",
+        "colorFloor": "#EBE3D3",
+        "colorInk": "#000000",
+        "shadeAlpha": "0.2",
+        "strokeWall": "3.0",
+        "strokeDetail": "2.0",
+        "strokeHatch": "1.2",
+        "strokeGrid": "0.3",
+        "hatchingStrokes": "5",
+        "hatchingSize": "0.6",
+        "hatchingDistance": "0.15"
+      },
+      {
+        "name": "moonlight",
+        "colorPage": "#3D3D4C",
+        "colorFloor": "#050519",
+        "colorInk": "#DAE5E5",
+        "shadeAlpha": "0.3",
+        "strokeWall": "4.0",
+        "strokeDetail": "2.0",
+        "strokeHatch": "0.5",
+        "strokeGrid": "0.2",
+        "hatchingStrokes": "4",
+        "hatchingSize": "0.4",
+        "hatchingDistance": "0.2"
+      },
+      {
+        "name": "black-and-white",
+        "colorPage": "#FFFFFF",
+        "colorFloor": "#FFFFFF",
+        "colorInk": "#000000",
+        "shadeAlpha": "0.0",
+        "strokeWall": "3.0",
+        "strokeDetail": "2.0",
+        "strokeHatch": "1.2",
+        "strokeGrid": "0.3",
+        "hatchingStrokes": "5",
+        "hatchingSize": "0.8",
+        "hatchingDistance": "0.1"
+      }
+]

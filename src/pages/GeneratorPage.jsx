@@ -2,7 +2,9 @@ import { useLocation } from "react-router"
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 import StyleCard from "../components/StyleCard"
+// styles imports
 import opdStyles from '../../jsonStyles/one-page-dungeon-styles.json'
+import psStyles from '../../jsonStyles/perilous-shores-styles.json'
 
 const GeneratorPage = ({genType}) => {
 
@@ -16,6 +18,8 @@ const GeneratorPage = ({genType}) => {
         switch (generator) {
             case "one-page-dungeon":
                 return opdStyles
+            case "perilous-shores":
+                return psStyles
             default:
                 break;
         }
