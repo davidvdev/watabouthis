@@ -1,7 +1,5 @@
 
 const StyleCard = ({style, generator}) => {
-    const width = "40"
-    const height = "80"
 
     const colors = Object.values(style).filter(setting => setting.length === 7 && setting.charAt(0) === "#")
 
@@ -13,7 +11,7 @@ const StyleCard = ({style, generator}) => {
                 {style.name.split("-").map(word => word.charAt(0).toUpperCase() + word.substring(1)).join(" ")}
             </h3>
             <div className="ColorPreviews">
-                    {colors.map((color,index) => <div style={{ backgroundColor:color }} className="colorBlock"/>)}
+                    {colors.map(color => <div style={{ backgroundColor:color }} className="colorBlock"/>)}
             </div>
             {/* <ul>
                 <li></li>

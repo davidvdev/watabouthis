@@ -17,6 +17,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="mansion" element={<GeneratorPage genType="mansion"/>} />
         <Route path="village" element={<GeneratorPage genType="village"/>} />
         <Route path="cave" element={<GeneratorPage genType="cave"/>} />
+        <Route path="compass-rose" element={<GeneratorPage genType="compass-rose"/>} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
