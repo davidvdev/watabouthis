@@ -18,6 +18,7 @@ function App() {
         <Link to="/mansion"><li>Mansion Styles</li></Link>
         <Link to="/village"><li>Village Styles</li></Link>
         <Link to="/cave"><li>Cave Styles</li></Link>
+        <Link to="/compass-rose"><li>Compass Rose Styles</li></Link>
       </ul>
       <Footer />
     </div>

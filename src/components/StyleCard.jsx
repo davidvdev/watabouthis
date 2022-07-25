@@ -1,28 +1,23 @@
 
-const StyleCard = ({style}) => {
+const StyleCard = ({style, generator}) => {
     const width = "40"
     const height = "80"
 
-    const downloadJSON = (filename, data) => {
-        const blob = new Blob( style, {type: 'json'} )
-    }
+    const colors = Object.values(style).filter(setting => setting.length === 7 && setting.charAt(0) === "#")
+
+    console.log(colors)
 
     return(
         <div className="StyleCard">
-            <h3>{style.name.charAt(0).toUpperCase() + style.name.substring(1).toLowerCase()}</h3>
+            <h3>
+                {style.name.split("-").map(word => word.charAt(0).toUpperCase() + word.substring(1)).join(" ")}
+            </h3>
             <div className="ColorPreviews">
-                <svg viewBox="0 0 360 80" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="0" width={width} height={height} fill={style.colorInk}/>
-                    <rect x={width * 1 - 1} width={width} height={height} fill={style.colorShading}/>
-                    <rect x={width * 2 - 2} width={width} height={height} fill={style.colorWater}/>
-                    <rect x={width * 3 - 3} width={width} height={height} fill={style.colorBg}/>
-                    <rect x={width * 4 - 4} width={width} height={height} fill={style.colorPaper}/>
-                    <rect x={width * 5 - 5} width={width} height={height} fill={style.shadowColor}/>
-                </svg>
+                    {colors.map((color,index) => <div style={{ backgroundColor:color }} className="colorBlock"/>)}
             </div>
-            <ul>
+            {/* <ul>
                 <li></li>
-            </ul>
+            </ul> */}
             <a 
                 role="button" 
                 className="download" 

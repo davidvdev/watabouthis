@@ -21,3 +21,23 @@ footer {
 footer p {
   display: block;
 }
+.StyleCardTableau {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.StyleCard {
+  margin: 1em;
+  width: 200px;
+}
+
+.ColorPreviews {
+  display: flex;
+  flex: auto;
+  min-height: 3em;
+}
+
+.colorBlock {
+  flex: auto;
+}
