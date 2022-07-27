@@ -20,8 +20,28 @@ html {
   min-height: 100vh;
 }
 
+header, footer {
+  min-width: 100vw;
+}
+
+header {
+  background-color: var(--color-2);
+  padding: 1em;
+}
+
+header h1 {
+  stroke: var(--color-1);
+}
+
+.alt-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 footer {
   background-color:var(--color-4);
+  border-top: 2px solid var(--color-3);
   padding: 0 5%;
   display: flex;
   align-items: center;
@@ -30,7 +50,38 @@ footer {
 
 footer p {
   display: block;
+  font-size: 0.8em;
   padding: 0 5%;
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: var(--ow);
+}
+
+footer a:hover {
+  color: var(--color-3);
+}
+
+.generator-list{
+  list-style-type: none;
+}
+
+.generator-list li {
+  padding: 1em;
+}
+
+.generator-list li:hover {
+  color: var(--color-5)
+}
+
+.generator-list a {
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .StyleCardTableau {

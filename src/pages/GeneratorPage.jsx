@@ -46,8 +46,7 @@ const GeneratorPage = ({genType}) => {
 
     return(
         <div className="App">
-            <Header />
-            <h1>{generatorText}</h1>
+            <Header title={generatorText}/>
             <div className="StyleCardTableau">
                 {getStyles().map((style,index) => <StyleCard generator={generator} style={style} key={style.name+"-"+index}/>)}
             </div>

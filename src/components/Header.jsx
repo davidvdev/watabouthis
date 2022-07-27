@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom"
-const Header = () => {
+const Header = ({title}) => {
     return(
-        <header>
+        <header className="alt-header">
             <Link to="/">Home</Link>
+            <h1>{title}</h1>
         </header>
     )
 }
