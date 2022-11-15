@@ -15,40 +15,60 @@ import crStyles from '../../jsonStyles/compass-rose-styles.json'
 
 const GeneratorPage = ({genType}) => {
 
+    let styleLink
+    let generatorLink
     const location = useLocation()
     const generator = location.pathname.substring(1) || genType
     const generatorText = generator.split("-")
         .map(word => word.charAt(0).toUpperCase() + word.substring(1))
         .join(" ")
 
-    const getStyles = () => {
+    const getStylesAndLink = () => {
         switch (generator) {
             case "one-page-dungeon":
-                return opdStyles
+                styleLink = opdStyles
+                generatorLink = 'https://watabou.github.io/dungeon.html'
+                return
             case "perilous-shores":
-                return psStyles
+                styleLink = psStyles
+                generatorLink = 'https://watabou.github.io/realm.html'
+                return
             case "medieval-fantasy-city":
-                return mfcStyles
+                styleLink = mfcStyles
+                generatorLink = 'https://watabou.github.io/city.html'
+                return
             case "neighborhood":
-                return nStyles
+                styleLink = nStyles
+                generatorLink = 'https://watabou.github.io/district.html'
+                return
             case "mansion":
-                return mStyles
+                styleLink = mStyles
+                generatorLink = 'https://watabou.github.io/mansion.html'
+                return
             case "village":
-                return vStyles
+                styleLink = vStyles
+                generatorLink = 'https://watabou.github.io/village.html'
+                return
             case "cave":
-                return cStyles
+                styleLink = cStyles
+                generatorLink = 'https://watabou.itch.io/cave-generator'
+                return
             case "compass-rose":
-                return crStyles
+                styleLink = crStyles
+                generatorLink = 'https://watabou.itch.io/compass-rose-generator'
+                return
             default:
                 break;
         }
     }
 
+    getStylesAndLink()
+
     return(
         <div className="App">
-            <Header title={generatorText}/>
+            <Header title={generatorText} link={generatorLink}/>
             <div className="StyleCardTableau">
-                {getStyles().map((style,index) => <StyleCard generator={generator} style={style} key={style.name+"-"+index}/>)}
+                {styleLink.map((style,index) => <StyleCard generator={generator} style={style} key={style.name+"-"+index}/>)}
             </div>
             <Footer />
         </div>
