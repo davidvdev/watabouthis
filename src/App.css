@@ -39,6 +39,11 @@ header h1 {
   justify-content: space-between;
 }
 
+.alt-header a {
+  text-decoration: none;
+  color: inherit;
+}
+
 footer {
   background-color:var(--color-4);
   border-top: 2px solid var(--color-3);
