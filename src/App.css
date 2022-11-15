@@ -33,11 +33,11 @@ header h1 {
   stroke: var(--color-1);
 }
 
-.alt-header {
+/* .alt-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
+} */
 
 .alt-header a {
   text-decoration: none;
