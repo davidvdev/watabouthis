@@ -28,7 +28,7 @@ header, footer {
 
 header {
   background-color: var(--color-2);
-  padding: 1em;
+  padding: 1em 0;
 }
 
 header h1 {
@@ -52,6 +52,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 1em 0;
 }
 
 footer p {
@@ -68,7 +69,11 @@ footer a {
   color: var(--ow);
 }
 
-footer a:hover {
+.bookEnd {
+  padding: 0 0.5em;
+}
+
+footer a:hover, header a:hover {
   color: var(--color-3);
 }
 
@@ -88,6 +93,7 @@ footer a:hover {
   color: inherit;
   font-weight: bold;
   text-decoration: none;
+  font-size: 1.25rem;
 }
 
 .StyleCardTableau {
@@ -99,6 +105,9 @@ footer a:hover {
 .StyleCard {
   margin: 1em;
   width: 200px;
+  background-color: var(--ow);
+  padding: 1em;
+  border-radius: 1em;
 }
 
 .ColorPreviews {
