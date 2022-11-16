@@ -7,6 +7,7 @@
   --color-5: #893302;
 }
 
+
 html {
   background-color: var(--ow);
 }
@@ -18,9 +19,20 @@ html {
   text-align: center;
   justify-content: space-between;
   min-height: 100vh;
+  background-image: var(--blur);
   background-size: cover;
   background-position: center;
+  transition: ease-in-out .1s;
 }
+
+.App.one-page-dungeon {background-image: url("./images/opd-blur.webp");}
+.App.perilous-shores{background-image: url("./images/ps-blur.webp");}
+.App.medieval-fantasy-city{background-image: url("./images/mfc-blur.webp");}
+.App.neighborhood{background-image: url("./images/n-blur.webp");}
+.App.mansion{background-image: url("./images/m-blur.webp");}
+.App.village{background-image: url("./images/v-blur.webp");}
+.App.cave{background-image: url("./images/c-blur.webp");}
+.App.compass-rose{background-image: url("./images/cr-blur.webp");}
 
 header, footer {
   min-width: 100vw;
@@ -73,6 +85,11 @@ footer a:hover, header a:hover {
 
 .generator-list{
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  background-color: var(--ow);
+  border-radius: 1em;
 }
 
 .generator-list li {
@@ -80,7 +97,8 @@ footer a:hover, header a:hover {
 }
 
 .generator-list li:hover {
-  color: var(--color-5)
+  color: var(--color-1);
+  background-color: var(--color-3);
 }
 
 .generator-list a {
