@@ -11,9 +11,6 @@ const StyleCard = ({style, generator}) => {
             <div className="ColorPreviews">
                     {colors.map(color => <div style={{ backgroundColor:color }} className="colorBlock"/>)}
             </div>
-            {/* <ul>
-                <li></li>
-            </ul> */}
             <a 
                 role="button" 
                 className="download" 
