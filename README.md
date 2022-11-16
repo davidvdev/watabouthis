@@ -13,7 +13,7 @@ Since this is a passion project, there may be delays to updating default themes 
 
 ## Contributing Themes
 First things first, be sure to save your theme from the generator. You should end up with a JSON file.
-![Theme Saving](assets/theme-saving.png)
+![Theme Saving](public/images/theme-saving.png)
 
 There are two ways to contribute themes. 
 1. If you're familiar with Github, JSON, and pull requests, feel free to fork this repo, add your new style (with a name!) to the JSON, and submit a pull request.
@@ -21,6 +21,6 @@ There are two ways to contribute themes.
    - Please select the `new theme` label for your issue.
    - Include the name of the generator and theme in your title like `Cave: Cyber Neon`
 
-![Theme Submission](assets/theme-submission.png)
+![Theme Submission](public/images/theme-submission.png)
 
 Once your Pull Request or Issue has been reviewed, your theme will be available on the site for others to download.
