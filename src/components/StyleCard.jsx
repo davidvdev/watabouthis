@@ -3,8 +3,6 @@ const StyleCard = ({style, generator}) => {
 
     const colors = Object.values(style).filter(setting => setting.length === 7 && setting.charAt(0) === "#")
 
-    console.log(colors)
-
     return(
         <div className="StyleCard">
             <h3>
