@@ -29,42 +29,42 @@ const GeneratorPage = ({genType}) => {
             case "one-page-dungeon":
                 styleLink = opdStyles
                 generatorLink = 'https://watabou.github.io/dungeon.html'
-                background = "url('../../public/images/opd-blur.webp')"
+                background = "url('./images/opd-blur.webp')"
                 return
             case "perilous-shores":
                 styleLink = psStyles
                 generatorLink = 'https://watabou.github.io/realm.html'
-                background = "url('../../public/images/ps-blur.webp')"
+                background = "url('./images/ps-blur.webp')"
                 return
             case "medieval-fantasy-city":
                 styleLink = mfcStyles
                 generatorLink = 'https://watabou.github.io/city.html'
-                background = "url('../../public/images/mfc-blur.webp')"
+                background = "url('./images/mfc-blur.webp')"
                 return
             case "neighborhood":
                 styleLink = nStyles
                 generatorLink = 'https://watabou.github.io/district.html'
-                background = "url('../../public/images/n-blur.webp')"
+                background = "url('./images/n-blur.webp')"
                 return
             case "mansion":
                 styleLink = mStyles
                 generatorLink = 'https://watabou.github.io/mansion.html'
-                background = "url('../../public/images/m-blur.webp')"
+                background = "url('./images/m-blur.webp')"
                 return
             case "village":
                 styleLink = vStyles
                 generatorLink = 'https://watabou.github.io/village.html'
-                background = "url('../../public/images/v-blur.webp')"
+                background = "url('./images/v-blur.webp')"
                 return
             case "cave":
                 styleLink = cStyles
                 generatorLink = 'https://watabou.itch.io/cave-generator'
-                background = "url('../../public/images/c-blur.webp')"
+                background = "url('./images/c-blur.webp')"
                 return
             case "compass-rose":
                 styleLink = crStyles
                 generatorLink = 'https://watabou.itch.io/compass-rose-generator'
-                background = "url('../../public/images/cr-blur.webp')"
+                background = "url('./images/cr-blur.webp')"
                 return
             default:
                 break;
