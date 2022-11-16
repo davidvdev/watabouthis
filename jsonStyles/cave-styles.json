@@ -40,5 +40,22 @@
         "hatchingStrokes": "5",
         "hatchingSize": "0.8",
         "hatchingDistance": "0.1"
+      },
+      {
+        "name":"cyber-neon",
+        "colorPage": "#380568",
+        "colorFloor": "#00FFFF",
+        "colorInk": "#FF00F6",
+        "shadeAlpha": "0.2",
+        "shadowAlpha": "1.0",
+        "shadowDist": "2.0",
+        "strokeWall": "1.5",
+        "strokeDetail": "3.0",
+        "strokeHatch": "1.0",
+        "strokeGrid": "1.5",
+        "hatchingStrokes": "5",
+        "hatchingSize": "0.9",
+        "hatchingDistance": "0.0",
+        "hatchingStones": "0.0"
       }
 ]
