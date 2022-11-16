@@ -20,7 +20,7 @@ const StyleCard = ({style, generator}) => {
                 role="button" 
                 className="download" 
                 href={"data:text/plain;charset=utf-8," + encodeURIComponent(JSON.stringify(style, null, 4 ))} 
-                download={"opd"+style.name +".json"}
+                download={generator+'-'+style.name +".json"}
             >Download JSON</a>
         </div>
     )
