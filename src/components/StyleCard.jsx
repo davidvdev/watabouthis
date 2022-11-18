@@ -1,6 +1,11 @@
 
 const StyleCard = ({style, generator}) => {
 
+
+    const handleMouseOver = (colorNumber) => {
+    //   console.log(colorNumber)
+    };
+
     const verifyHex = txt => txt.length === 7 && txt.charAt(0) === "#"
 
     const colors = Object.values(style).flat().filter(setting => verifyHex(setting))
@@ -11,7 +16,7 @@ const StyleCard = ({style, generator}) => {
                 {style.name.split("-").map(word => word.charAt(0).toUpperCase() + word.substring(1)).join(" ")}
             </h3>
             <div className="ColorPreviews">
-                    {colors.map((color,index) => <div key={style.name + index + color} style={{ backgroundColor:color }} className="colorBlock"/>)}
+                    {colors.map((color,index) => <div key={style.name + index + color} style={{ backgroundColor:color }} className="colorBlock" onMouseOver={() => handleMouseOver(color)}/>)}
             </div>
             <a 
                 role="button" 
