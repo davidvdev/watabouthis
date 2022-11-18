@@ -140,6 +140,7 @@ footer a:hover, header a:hover {
   width: 36px;
   height: 36px;
   border-radius: 360px;
+  margin: 1px;
 }
 
 .download {
