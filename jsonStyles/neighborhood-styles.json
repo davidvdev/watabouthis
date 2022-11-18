@@ -4,9 +4,14 @@
         "colorOutline": "#333333",
         "colorBg": "#C8BFB1",
         "colorRoad": "#A69E92",
-        "colorRoof": "#8C6F5B",
+        "colorRoof": [
+          "#8C6F5B"
+        ],
         "colorCupola": "#899989",
-        "colorTree": "#7E8C62",
+        "colorTree": [
+          "#7E8C62",
+          "#647C58"
+        ],
         "colorGreen": "#AAAA88",
         "colorStone": "#BBBBBB",
         "colorWater": "#7A8A99",
@@ -17,21 +22,28 @@
         "colorLights": "#000000",
         "colorAmbience": "#FFFFFF",
         "cityLights": "0.0",
+        "details": "true",
         "strokeNormal": "1.0",
         "strokeThin": "0.6",
-        "strokeRoad": "5.0",
-        "varRoof": "0.2",
+        "varRoof": "0.3",
         "varTree": "0.2",
-        "cobbles": "false"
+        "roadSurface": "Plain",
+        "roadOutlined": "false",
+        "roadTwisting": "false",
+        "roadWidth": "0.4"
       },
       {
         "name": "warm",
-        "colorOutline": "#564324",
+        "colorOutline": "#4C3B20",
         "colorBg": "#DBC8A9",
         "colorRoad": "#C4A489",
-        "colorRoof": "#A36436",
+        "colorRoof": [
+          "#A36436"
+        ],
         "colorCupola": "#4C9999",
-        "colorTree": "#899451",
+        "colorTree": [
+          "#899451"
+        ],
         "colorGreen": "#CDB676",
         "colorStone": "#BFB597",
         "colorWater": "#607A80",
@@ -42,21 +54,29 @@
         "colorLights": "#000000",
         "colorAmbience": "#FFFFFF",
         "cityLights": "0.0",
+        "details": "false",
         "strokeNormal": "2.0",
         "strokeThin": "1.0",
-        "strokeRoad": "6.0",
         "varRoof": "0.2",
         "varTree": "0.2",
-        "cobbles": "false"
+        "roadSurface": "Plain",
+        "roadOutlined": "false",
+        "roadTwisting": "true",
+        "roadWidth": "0.6"
       },
       {
         "name": "cool",
         "colorOutline": "#1A1814",
         "colorBg": "#BEC8B6",
         "colorRoad": "#E5DFD3",
-        "colorRoof": "#6F7B94",
+        "colorRoof": [
+          "#6F7B94",
+          "#66687F"
+        ],
         "colorCupola": "#B29747",
-        "colorTree": "#5F7F68",
+        "colorTree": [
+          "#5F7F68"
+        ],
         "colorGreen": "#A7B89E",
         "colorStone": "#D0D0D3",
         "colorWater": "#86ABB3",
@@ -67,24 +87,31 @@
         "colorLights": "#000000",
         "colorAmbience": "#FFFFFF",
         "cityLights": "0.0",
+        "details": "true",
         "strokeNormal": "0.8",
         "strokeThin": "0.6",
-        "strokeRoad": "10.0",
         "varRoof": "0.3",
         "varTree": "0.3",
-        "cobbles": "false"
+        "roadSurface": "Cobbles",
+        "roadOutlined": "true",
+        "roadTwisting": "false",
+        "roadWidth": "0.8"
       },
       {
         "name": "black-and-white",
         "colorOutline": "#000000",
         "colorBg": "#FFFFFF",
-        "colorRoad": "#CCCCCC",
-        "colorRoof": "#EEEEEE",
-        "colorCupola": "#EEEEEE",
-        "colorTree": "#BBBBBB",
-        "colorGreen": "#EEEEEE",
+        "colorRoad": "#FFFFFF",
+        "colorRoof": [
+          "#FFFFFF"
+        ],
+        "colorCupola": "#FFFFFF",
+        "colorTree": [
+          "#FFFFFF"
+        ],
+        "colorGreen": "#FFFFFF",
         "colorStone": "#FFFFFF",
-        "colorWater": "#888888",
+        "colorWater": "#FFFFFF",
         "colorShadow": "#FFFFFF",
         "shadowAlpha": "0.0",
         "shadowLength": "0.0",
@@ -92,21 +119,28 @@
         "colorLights": "#000000",
         "colorAmbience": "#FFFFFF",
         "cityLights": "0.0",
-        "strokeNormal": "1.0",
+        "details": "true",
+        "strokeNormal": "1.5",
         "strokeThin": "0.5",
-        "strokeRoad": "2.0",
         "varRoof": "0.0",
         "varTree": "0.0",
-        "cobbles": "false"
+        "roadSurface": "Plain",
+        "roadOutlined": "true",
+        "roadTwisting": "false",
+        "roadWidth": "0.5"
       },
       {
         "name": "night",
         "colorOutline": "#0F1419",
         "colorBg": "#D8D8D8",
         "colorRoad": "#F2EADA",
-        "colorRoof": "#BFB5AC",
+        "colorRoof": [
+          "#BFB5AC"
+        ],
         "colorCupola": "#999089",
-        "colorTree": "#7E8C85",
+        "colorTree": [
+          "#7E8C85"
+        ],
         "colorGreen": "#AEB2A9",
         "colorStone": "#DADAE5",
         "colorWater": "#899199",
@@ -117,11 +151,46 @@
         "colorLights": "#FEF7D8",
         "colorAmbience": "#6688AA",
         "cityLights": "0.6",
+        "details": "true",
         "strokeNormal": "1.0",
         "strokeThin": "0.6",
-        "strokeRoad": "8.0",
         "varRoof": "0.2",
         "varTree": "0.1",
-        "cobbles": "true"
+        "roadSurface": "Tiles",
+        "roadOutlined": "true",
+        "roadTwisting": "true",
+        "roadWidth": "0.5"
+      },
+      {
+        "name": "modern",
+        "colorOutline": "#0F1419",
+        "colorBg": "#D8D8D8",
+        "colorRoad": "#F2EADA",
+        "colorRoof": [
+          "#BFB5AC"
+        ],
+        "colorCupola": "#999089",
+        "colorTree": [
+          "#7E8C85"
+        ],
+        "colorGreen": "#AEB2A9",
+        "colorStone": "#DADAE5",
+        "colorWater": "#899199",
+        "colorShadow": "#000000",
+        "shadowAlpha": "0.0",
+        "shadowLength": "0.0",
+        "shadowDir": "270.0",
+        "colorLights": "#FEF7D8",
+        "colorAmbience": "#6688AA",
+        "cityLights": "0.6",
+        "details": "true",
+        "strokeNormal": "1.0",
+        "strokeThin": "0.6",
+        "varRoof": "0.2",
+        "varTree": "0.1",
+        "roadSurface": "Tiles",
+        "roadOutlined": "true",
+        "roadTwisting": "true",
+        "roadWidth": "0.5"
       }
 ]

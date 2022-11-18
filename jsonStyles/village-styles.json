@@ -1,45 +1,58 @@
 [
     {
         "name": "default",
-        "ground": "#85A478",
-        "hachureLight": "#A3C27C",
-        "hachureDark": "#638479",
+        "ground": [
+          "#85A478",
+          "#687F64",
+          "#A0B78D"
+        ],
+        "relief": "Grass",
         "sand": "#C5BEAC",
         "road": "#C5BEAC",
-        "outlineRoads": "true",
-        "roofLight": "#BD9D86",
-        "roofDark": "#6A5E68",
-        "lights": "#000000",
         "plank": "#BD9D86",
+        "outlineRoads": "true",
+        "roofLight": [
+          "#BD9D86",
+          "#BD9D86",
+          "#95A5A5"
+        ],
+        "roofStroke": "#010206",
         "roofVariance": "0.2",
-        "fieldLight": "#99877A",
-        "fieldDark": "#7F6E66",
-        "fieldFurrow": "#413F40",
+        "roofSlope": "0.5",
+        "lights": "#000000",
+        "fieldLight": [
+          "#8C7A70",
+          "#7F716D"
+        ],
+        "fieldFurrow": "#4C4341",
+        "fieldVariance": "0.2",
         "outlineFields": "true",
         "waterShallow": "#5B99A6",
         "waterDeep": "#4C8699",
         "waterTide": "#A3C9CC",
-        "forestLight": "#638479",
-        "forestDark": "#496664",
-        "forestDetail": "#010206",
+        "tree": [
+          "#4F6B65",
+          "#5B7F6B"
+        ],
+        "treeDetails": "#010206",
+        "treeVariance": "0.2",
+        "shadowColor": "#9699AE",
+        "shadowLength": "1.0",
+        "shadowAngle": "30",
         "fontHeader": {
           "italic": false,
-          "size": 48,
-          "face": null,
           "bold": false,
+          "face": null,
+          "size": 48,
           "embedded": "def_font"
         },
         "fontPopulation": {
           "italic": false,
-          "size": 24,
-          "face": null,
           "bold": false,
+          "face": null,
+          "size": 24,
           "embedded": "def_font"
         },
-        "shadowColor": "#000000",
-        "shadowAlpha": "0.25",
-        "shadowLength": "1.0",
-        "shadowAngle": "30",
         "ink": "#010206",
         "paper": "#C5BEAC",
         "strokeNormal": "1.0",
@@ -47,27 +60,40 @@
       },
       {
         "name": "night",
-        "ground": "#3E546C",
-        "hachureLight": "#59758A",
-        "hachureDark": "#344358",
+        "ground": [
+          "#3E546C",
+          "#344359",
+          "#587489"
+        ],
+        "relief": "Hachures",
         "sand": "#5E7080",
         "road": "#708090",
+        "plank": "#5F6C7F",
         "outlineRoads": "false",
-        "roofLight": "#546B8B",
-        "roofDark": "#191D29",
+        "roofLight": [
+          "#546B8B"
+        ],
+        "roofStroke": "#2D3B4C",
+        "roofVariance": "0.1",
+        "roofSlope": "0.4",
         "lights": "#AA8822",
-        "plank": "#5B6F8C",
-        "roofVariance": "0.2",
-        "fieldLight": "#475566",
-        "fieldDark": "#384E66",
+        "fieldLight": [
+          "#364759"
+        ],
         "fieldFurrow": "#171B27",
+        "fieldVariance": "0.1",
         "outlineFields": "false",
-        "waterShallow": "#21263A",
-        "waterDeep": "#1D2333",
+        "waterShallow": "#1D2133",
+        "waterDeep": "#151A26",
         "waterTide": "#6B7B99",
-        "forestLight": "#2A374A",
-        "forestDark": "#2A374A",
-        "forestDetail": "#171B27",
+        "tree": [
+          "#273344"
+        ],
+        "treeDetails": "#171B27",
+        "treeVariance": "0.2",
+        "shadowColor": "#545054",
+        "shadowLength": "1.6",
+        "shadowAngle": "60",
         "fontHeader": {
           "italic": false,
           "size": 48,
@@ -82,10 +108,6 @@
           "bold": false,
           "embedded": "def_font"
         },
-        "shadowColor": "#000000",
-        "shadowAlpha": "0.2",
-        "shadowLength": "2.0",
-        "shadowAngle": "60",
         "ink": "#171B27",
         "paper": "#667788",
         "strokeNormal": "1.0",
@@ -139,48 +161,224 @@
       },
       {
         "name": "minimal",
-        "ground": "#FFFFFF",
-        "hachureLight": "#FFFFFF",
-        "hachureDark": "#FFFFFF",
+        "ground": [
+          "#FFFFFF"
+        ],
+        "relief": "Contours",
         "sand": "#FFFFFF",
         "road": "#000000",
-        "outlineRoads": "false",
-        "roofLight": "#000000",
-        "roofDark": "#000000",
-        "lights": "#000000",
         "plank": "#000000",
+        "outlineRoads": "false",
+        "roofLight": [
+          "#000000"
+        ],
+        "roofStroke": "#000000",
         "roofVariance": "0.0",
-        "fieldLight": "#EEEEEE",
-        "fieldDark": "#EEEEEE",
+        "roofSlope": "0.0",
+        "lights": "#000000",
+        "fieldLight": [
+          "#EEEEEE"
+        ],
         "fieldFurrow": "#EEEEEE",
+        "fieldVariance": "0.0",
         "outlineFields": "true",
         "waterShallow": "#AAAAAA",
         "waterDeep": "#AAAAAA",
         "waterTide": "#AAAAAA",
-        "forestLight": "#CCCCCC",
-        "forestDark": "#CCCCCC",
-        "forestDetail": "#CCCCCC",
+        "tree": [
+          "#CCCCCC"
+        ],
+        "treeDetails": "#CCCCCC",
+        "treeVariance": "0.0",
+        "shadowColor": "#FFFFFF",
+        "shadowLength": "0.0",
+        "shadowAngle": "60",
+        "fontHeader": {
+          "italic": false,
+          "size": 48,
+          "face": "_typewriter",
+          "bold": false,
+          "embedded": "def_font"
+        },
+        "fontPopulation": {
+          "italic": false,
+          "size": 24,
+          "face": "_typewriter",
+          "bold": false,
+          "embedded": "def_font"
+        },
+        "ink": "#000000",
+        "paper": "#FFFFFF",
+        "strokeNormal": "0.6",
+        "strokeThin": "0.2"
+      },
+      {
+        "name": "hot",
+        "ground": [
+          "#FAE8A1",
+          "#C9B893",
+          "#FEFDD8"
+        ],
+        "relief": "Hachures",
+        "sand": "#FAF6C8",
+        "road": "#CCB88E",
+        "plank": "#CDAD85",
+        "outlineRoads": "false",
+        "roofLight": [
+          "#D3AF70",
+          "#CEB97B"
+        ],
+        "roofStroke": "#665433",
+        "roofVariance": "0.2",
+        "roofSlope": "0.2",
+        "lights": "#000000",
+        "fieldLight": [
+          "#A2BF69",
+          "#C4CC70"
+        ],
+        "fieldFurrow": "#698967",
+        "fieldVariance": "0.1",
+        "outlineFields": "true",
+        "waterShallow": "#AEE8D9",
+        "waterDeep": "#7CB2B2",
+        "waterTide": "#E5FFE5",
+        "tree": [
+          "#83A866",
+          "#698C63",
+          "#ABC168"
+        ],
+        "treeDetails": "#192633",
+        "treeVariance": "0.2",
+        "shadowColor": "#D0C9E2",
+        "shadowLength": "0.7",
+        "shadowAngle": "30",
+        "fontHeader": {
+          "italic": false,
+          "size": 48,
+          "face": null,
+          "bold": false,
+          "embedded": "def_font"
+        },
+        "fontPopulation": {
+          "italic": false,
+          "size": 24,
+          "face": null,
+          "bold": false,
+          "embedded": "def_font"
+        },
+        "ink": "#4C263F",
+        "paper": "#FFF6E5",
+        "strokeNormal": "1.2",
+        "strokeThin": "0.4"
+      },
+      {
+        "name": "cold",
+        "ground": [
+          "#F4F6F8",
+          "#C5D3E5",
+          "#FFFFFF"
+        ],
+        "relief": "Contours",
+        "sand": "#C1C5CB",
+        "road": "#C3C7CC",
+        "plank": "#999391",
+        "outlineRoads": "false",
+        "roofLight": [
+          "#FFFFFF"
+        ],
+        "roofStroke": "#FFFFFF",
+        "roofVariance": "0.1",
+        "roofSlope": "0.3",
+        "lights": "#000000",
+        "fieldLight": [
+          "#CCCCCC"
+        ],
+        "fieldFurrow": "#8F9397",
+        "fieldVariance": "0.25",
+        "outlineFields": "true",
+        "waterShallow": "#D0DFE2",
+        "waterDeep": "#B5CCDE",
+        "waterTide": "#D1E1E2",
+        "tree": [
+          "#F4FBFF",
+          "#E3EFFC"
+        ],
+        "treeDetails": "#5B7198",
+        "treeVariance": "0.1",
+        "shadowColor": "#8EA5CC",
+        "shadowLength": "1.2",
+        "shadowAngle": "60",
         "fontHeader": {
           "italic": false,
           "bold": false,
-          "face": "_typewriter",
+          "face": null,
           "size": 48,
           "embedded": "def_font"
         },
         "fontPopulation": {
           "italic": false,
           "bold": false,
-          "face": "_typewriter",
+          "face": null,
           "size": 24,
           "embedded": "def_font"
         },
-        "shadowColor": "#000000",
-        "shadowAlpha": "0.0",
+        "ink": "#475666",
+        "paper": "#FFFFFF",
+        "strokeNormal": "1.2",
+        "strokeThin": "0.6"
+      },
+      {
+        "name": "black-and-white",
+        "ground": [
+          "#FFFFFF",
+          "#DDDDDD"
+        ],
+        "relief": "Grass",
+        "sand": "#FFFFFF",
+        "road": "#FFFFFF",
+        "plank": "#FFFFFF",
+        "outlineRoads": "true",
+        "roofLight": [
+          "#FFFFFF"
+        ],
+        "roofStroke": "#444444",
+        "roofVariance": "0.0",
+        "roofSlope": "0.5",
+        "lights": "#000000",
+        "fieldLight": [
+          "#FFFFFF"
+        ],
+        "fieldFurrow": "#000000",
+        "fieldVariance": "0.0",
+        "outlineFields": "false",
+        "waterShallow": "#FFFFFF",
+        "waterDeep": "#FFFFFF",
+        "waterTide": "#CCCCCC",
+        "tree": [
+          "#FFFFFF"
+        ],
+        "treeDetails": "#444444",
+        "treeVariance": "0.0",
+        "shadowColor": "#FFFFFF",
         "shadowLength": "0.0",
         "shadowAngle": "60",
+        "fontHeader": {
+          "italic": false,
+          "size": 48,
+          "face": null,
+          "bold": false,
+          "embedded": "def_font"
+        },
+        "fontPopulation": {
+          "italic": false,
+          "size": 24,
+          "face": null,
+          "bold": false,
+          "embedded": "def_font"
+        },
         "ink": "#000000",
         "paper": "#FFFFFF",
-        "strokeNormal": "0.6",
-        "strokeThin": "0.2"
+        "strokeNormal": "1.0",
+        "strokeThin": "0.5"
       }
 ]
