@@ -4,7 +4,7 @@ const StyleCard = ({style, generator}) => {
     const verifyHex = txt => txt.length === 7 && txt.charAt(0) === "#"
 
     const colors = Object.values(style).flat().filter(setting => verifyHex(setting))
-    console.log(colors)
+
     return(
         <div className="StyleCard">
             <h3>
