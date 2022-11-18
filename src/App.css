@@ -124,6 +124,8 @@ footer a:hover, header a:hover {
 }
 
 .StyleCard {
+  display: flex;
+  flex-direction: column;
   margin: 1em;
   width: 200px;
   background-color: var(--ow);
@@ -133,16 +135,17 @@ footer a:hover, header a:hover {
 
 .ColorPreviews {
   display: flex;
-  flex: auto;
   flex-wrap: wrap;
+  justify-content: flex-start;
   min-height: 1em;
+  margin-bottom: 1em;
 }
 
 .colorBlock {
   width: 2em;
   height: 2em;
   border-radius: 360px;
-  margin: 1px;
+  margin: 0.55px;
 }
 
 .download {
@@ -153,7 +156,7 @@ footer a:hover, header a:hover {
   padding: 0.5em;
   text-decoration: none;
   display: block;
-  margin: 1em;
+  margin: auto 1em 1em 1em;
 }
 
 .download:hover {
