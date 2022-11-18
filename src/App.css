@@ -132,11 +132,14 @@ footer a:hover, header a:hover {
 .ColorPreviews {
   display: flex;
   flex: auto;
-  min-height: 3em;
+  flex-wrap: wrap;
+  min-height: 1em;
 }
 
 .colorBlock {
-  flex: auto;
+  width: 36px;
+  height: 36px;
+  border-radius: 360px;
 }
 
 .download {
