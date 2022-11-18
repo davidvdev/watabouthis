@@ -160,5 +160,37 @@
         "roadOutlined": "true",
         "roadTwisting": "true",
         "roadWidth": "0.5"
+      },
+      {
+        "name": "modern",
+        "colorOutline": "#0F1419",
+        "colorBg": "#D8D8D8",
+        "colorRoad": "#F2EADA",
+        "colorRoof": [
+          "#BFB5AC"
+        ],
+        "colorCupola": "#999089",
+        "colorTree": [
+          "#7E8C85"
+        ],
+        "colorGreen": "#AEB2A9",
+        "colorStone": "#DADAE5",
+        "colorWater": "#899199",
+        "colorShadow": "#000000",
+        "shadowAlpha": "0.0",
+        "shadowLength": "0.0",
+        "shadowDir": "270.0",
+        "colorLights": "#FEF7D8",
+        "colorAmbience": "#6688AA",
+        "cityLights": "0.6",
+        "details": "true",
+        "strokeNormal": "1.0",
+        "strokeThin": "0.6",
+        "varRoof": "0.2",
+        "varTree": "0.1",
+        "roadSurface": "Tiles",
+        "roadOutlined": "true",
+        "roadTwisting": "true",
+        "roadWidth": "0.5"
       }
 ]
