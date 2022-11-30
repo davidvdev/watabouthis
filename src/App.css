@@ -133,6 +133,12 @@ footer a:hover, header a:hover {
   border-radius: 1em;
 }
 
+.obsolete{
+  font-size: 0.25em;
+  font-style: italic;
+  color: var(--color-4);
+}
+
 .ColorPreviews {
   display: flex;
   flex-wrap: wrap;

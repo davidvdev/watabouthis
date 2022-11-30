@@ -1,13 +1,16 @@
 [
-    {
+  {
         "name": "default",
         "colorForeground": "#4D3F36",
         "colorPaper": "#EBE8DF",
         "colorBackground": "#EBE8DF",
         "colorWater": "#E5E2DA",
+        "colorRivers": "#665C57",
         "enumShading": "Hatching",
         "floatAlpha": "0.7",
-        "colorRivers": "#665C57",
+        "colorLandShadow": "#665C57",
+        "alphaLandShadow": "0.2",
+        "widthLandShadow": "0.333",
         "colorContours": "#998B83",
         "colorShallow": "#EBE8DF",
         "shallowEdge": "1.0",
@@ -33,46 +36,41 @@
         "normal": "1.4",
         "thick": "3.0",
         "river": "3.0",
-        "fontTitle": {
-          "italic": false,
-          "size": 50,
-          "face": null,
-          "bold": false,
-          "embedded": "legend_font"
-        },
-        "fontLegend": {
-          "italic": false,
-          "size": 40,
-          "face": null,
-          "bold": false,
-          "embedded": "legend_font"
-        },
-        "fontPin": {
-          "italic": false,
-          "bold": false,
-          "face": null,
-          "size": 25,
-          "embedded": "pin_font"
-        },
-        "fontInfo": {
-          "italic": false,
-          "bold": false,
-          "face": null,
-          "size": 20,
-          "embedded": "pin_font"
-        },
-        "lineSpacing": "-20.0",
+        "fontTown": {
+        "embedded": "pin_font",
+        "italic": false,
+        "bold": false,
+        "face": null,
+        "size": 32
+    },
+        "fontDanger": {
+        "embedded": "pin_font",
+        "italic": false,
+        "bold": false,
+        "face": null,
+        "size": 24
+    },
+        "fontSticker": {
+        "embedded": "pin_font",
+        "italic": false,
+        "bold": false,
+        "face": null,
+        "size": 20
+    },
         "textOutline": "true"
-      },
-      {
-        "name": "black-and-white",
+    },
+    {
+        "name":"black-and-white",
         "colorForeground": "#000000",
         "colorPaper": "#FFFFFF",
         "colorBackground": "#FFFFFF",
         "colorWater": "#FFFFFF",
+        "colorRivers": "#000000",
         "enumShading": "Hatching",
         "floatAlpha": "0.5",
-        "colorRivers": "#000000",
+        "colorLandShadow": "#000000",
+        "alphaLandShadow": "0.0",
+        "widthLandShadow": "0.0",
         "colorContours": "#000000",
         "colorShallow": "#FFFFFF",
         "shallowEdge": "0.666",
@@ -98,46 +96,41 @@
         "normal": "2.0",
         "thick": "4.0",
         "river": "4.0",
-        "fontTitle": {
-          "italic": false,
-          "bold": false,
-          "face": null,
-          "size": 50,
-          "embedded": "legend_font"
-        },
-        "fontLegend": {
-          "italic": false,
-          "bold": false,
-          "face": null,
-          "size": 40,
-          "embedded": "legend_font"
-        },
-        "fontPin": {
-          "italic": false,
-          "bold": false,
-          "face": null,
-          "size": 25,
-          "embedded": "pin_font"
-        },
-        "fontInfo": {
-          "italic": false,
-          "bold": false,
-          "face": null,
-          "size": 20,
-          "embedded": "pin_font"
-        },
-        "lineSpacing": "-20.0",
+        "fontTown": {
+        "embedded": "pin_font",
+        "italic": false,
+        "bold": false,
+        "face": null,
+        "size": 40
+    },
+        "fontDanger": {
+        "embedded": "pin_font",
+        "italic": false,
+        "bold": false,
+        "face": null,
+        "size": 32
+    },
+        "fontSticker": {
+        "embedded": "pin_font",
+        "italic": false,
+        "bold": false,
+        "face": null,
+        "size": 20
+    },
         "textOutline": "true"
-      },
-      {
+    },
+    {
         "name": "antique",
         "colorForeground": "#4C2416",
         "colorPaper": "#FFFAE5",
         "colorBackground": "#F9F2DB",
         "colorWater": "#FFFAE5",
+        "colorRivers": "#4C2416",
         "enumShading": "Hatching",
         "floatAlpha": "0.7",
-        "colorRivers": "#4C2416",
+        "colorLandShadow": "#4C2416",
+        "alphaLandShadow": "0.1",
+        "widthLandShadow": "0.333",
         "colorContours": "#4C2416",
         "colorShallow": "#FFFAE5",
         "shallowEdge": "0.0",
@@ -163,46 +156,41 @@
         "normal": "1.5",
         "thick": "2.0",
         "river": "3.0",
-        "fontTitle": {
-          "italic": false,
-          "bold": false,
-          "face": null,
-          "size": 50,
-          "embedded": "legend_font"
-        },
-        "fontLegend": {
-          "italic": false,
-          "bold": false,
-          "face": null,
-          "size": 40,
-          "embedded": "legend_font"
-        },
-        "fontPin": {
-          "italic": false,
-          "bold": false,
-          "face": null,
-          "size": 25,
-          "embedded": "pin_font"
-        },
-        "fontInfo": {
-          "italic": false,
-          "bold": false,
-          "face": null,
-          "size": 20,
-          "embedded": "pin_font"
-        },
-        "lineSpacing": "-20.0",
+        "fontTown": {
+        "embedded": "pin_font",
+        "italic": false,
+        "bold": false,
+        "face": null,
+        "size": 28
+    },
+        "fontDanger": {
+        "embedded": "pin_font",
+        "italic": false,
+        "bold": false,
+        "face": null,
+        "size": 20
+    },
+        "fontSticker": {
+        "embedded": "pin_font",
+        "italic": false,
+        "bold": false,
+        "face": null,
+        "size": 20
+    },
         "textOutline": "true"
-      },
-      {
+    },
+    {
         "name":"soft",
         "colorForeground": "#444455",
         "colorPaper": "#F8F8F4",
         "colorBackground": "#F8F8F4",
         "colorWater": "#E0E0E4",
+        "colorRivers": "#444455",
         "enumShading": "Transparent",
         "floatAlpha": "0.4",
-        "colorRivers": "#444455",
+        "colorLandShadow": "#333355",
+        "alphaLandShadow": "0.1",
+        "widthLandShadow": "1.0",
         "colorContours": "#666677",
         "colorShallow": "#E0E0E4",
         "shallowEdge": "0.5",
@@ -228,39 +216,92 @@
         "normal": "4.0",
         "thick": "8.0",
         "river": "8.0",
-        "fontTitle": {
-          "italic": false,
-          "size": 60,
-          "face": null,
-          "bold": false,
-          "embedded": "legend_font"
-        },
-        "fontLegend": {
-          "italic": false,
-          "size": 40,
-          "face": null,
-          "bold": false,
-          "embedded": "legend_font"
-        },
-        "fontPin": {
-          "italic": false,
-          "size": 25,
-          "face": null,
-          "bold": false,
-          "embedded": "pin_font"
-        },
-        "fontInfo": {
-          "italic": false,
-          "size": 20,
-          "face": null,
-          "bold": false,
-          "embedded": "pin_font"
-        },
-        "lineSpacing": "-25.0",
+        "fontTown": {
+        "embedded": "pin_font",
+        "italic": false,
+        "bold": false,
+        "face": null,
+        "size": 40
+    },
+        "fontDanger": {
+        "embedded": "pin_font",
+        "italic": false,
+        "bold": false,
+        "face": null,
+        "size": 32
+    },
+        "fontSticker": {
+        "embedded": "pin_font",
+        "italic": false,
+        "bold": false,
+        "face": null,
+        "size": 20
+    },
         "textOutline": "false"
-      },
+    },
+    {
+        "name":"cartoon",
+        "colorForeground": "#434A42",
+        "colorPaper": "#F2ECDA",
+        "colorBackground": "#CCBF99",
+        "colorWater": "#A0B2A9",
+        "colorRivers": "#434A42",
+        "enumShading": "Solid",
+        "floatAlpha": "1.0",
+        "colorLandShadow": "#E5D3A0",
+        "alphaLandShadow": "0.4",
+        "widthLandShadow": "0.5",
+        "colorContours": "#F2ECDA",
+        "colorShallow": "#BBCCBB",
+        "shallowEdge": "1.0",
+        "shallowSize": "0.6",
+        "bandsNumber": "2",
+        "waviness": "0.5",
+        "waveDistance": "6.0",
+        "colorMountain": "#E5DCC3",
+        "ruggedMountains": "true",
+        "colorLightWood": "#797F59",
+        "colorDarkWood": "#617250",
+        "treesDensity": "0.3",
+        "treesRegularity": "0.7",
+        "clutterScale": "1.0",
+        "colorDanger": "#F2ECDA",
+        "colorWalls": "#E5D6C3",
+        "colorRoofs": "#A67F63",
+        "colorFlags": "#7F1919",
+        "townScale": "0.9",
+        "dangerScale": "0.7",
+        "ultraThin": "0.5",
+        "thin": "1.0",
+        "normal": "2.0",
+        "thick": "4.0",
+        "river": "5.0",
+        "fontTown": {
+        "embedded": "pin_font",
+        "italic": false,
+        "bold": false,
+        "face": null,
+        "size": 32
+    },
+        "fontDanger": {
+        "embedded": "pin_font",
+        "italic": false,
+        "bold": false,
+        "face": null,
+        "size": 24
+    },
+        "fontSticker": {
+        "embedded": "pin_font",
+        "italic": false,
+        "bold": false,
+        "face": null,
+        "size": 20
+    },
+        "textOutline": "true"
+    },
       {
         "name": "chocolate",
+        "obsolete":"true",
         "colorForeground": "#332826",
         "colorPaper": "#CCBBA3",
         "colorBackground": "#E5C9AC",
@@ -323,70 +364,5 @@
         },
         "lineSpacing": "-25.0",
         "textOutline": "false"
-      },
-      {
-        "name": "cartoon",
-        "colorForeground": "#434A42",
-        "colorPaper": "#F2ECDA",
-        "colorBackground": "#CCBF99",
-        "colorWater": "#A0B2A9",
-        "enumShading": "Solid",
-        "floatAlpha": "1.0",
-        "colorRivers": "#434A42",
-        "colorContours": "#F2ECDA",
-        "colorShallow": "#BBCCBB",
-        "shallowEdge": "1.0",
-        "shallowSize": "0.6",
-        "bandsNumber": "2",
-        "waviness": "0.5",
-        "waveDistance": "6.0",
-        "colorMountain": "#E5DCC3",
-        "ruggedMountains": "true",
-        "colorLightWood": "#797F59",
-        "colorDarkWood": "#617250",
-        "treesDensity": "0.3",
-        "treesRegularity": "0.7",
-        "clutterScale": "1.0",
-        "colorDanger": "#F2ECDA",
-        "colorWalls": "#E5D6C3",
-        "colorRoofs": "#A67F63",
-        "colorFlags": "#7F1919",
-        "townScale": "0.9",
-        "dangerScale": "0.7",
-        "ultraThin": "0.5",
-        "thin": "1.0",
-        "normal": "2.0",
-        "thick": "4.0",
-        "river": "5.0",
-        "fontTitle": {
-          "italic": false,
-          "bold": false,
-          "face": null,
-          "size": 50,
-          "embedded": "legend_font"
-        },
-        "fontLegend": {
-          "italic": false,
-          "bold": false,
-          "face": null,
-          "size": 40,
-          "embedded": "legend_font"
-        },
-        "fontPin": {
-          "italic": false,
-          "bold": false,
-          "face": null,
-          "size": 25,
-          "embedded": "pin_font"
-        },
-        "fontInfo": {
-          "italic": false,
-          "bold": false,
-          "face": null,
-          "size": 20,
-          "embedded": "pin_font"
-        },
-        "lineSpacing": "-20.0",
-        "textOutline": "true"
       }
 ]

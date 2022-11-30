@@ -14,6 +14,10 @@ const StyleCard = ({style, generator}) => {
         <div className="StyleCard">
             <h3>
                 {style.name.split("-").map(word => word.charAt(0).toUpperCase() + word.substring(1)).join(" ")}
+            {style.obsolete ? 
+                <span className="obsolete"> (obsolete)</span>
+                :""
+            }
             </h3>
             <div className="ColorPreviews">
                     {colors.map((color,index) => <div key={style.name + index + color} style={{ backgroundColor:color }} className="colorBlock" onMouseOver={() => handleMouseOver(color)}/>)}
