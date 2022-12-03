@@ -1,0 +1,31 @@
+[
+    {
+        "name": "parchment",
+        "colorBackground": "#E5DDCE",
+        "colorStroke": "#2E2333",
+        "colorGlow": "#CCB7A3",
+        "thickness": "4.0"
+      },
+      {
+        "name": "clean",
+        "colorBackground": "#FFFFFF",
+        "colorStroke": "#000000",
+        "colorGlow": "#FFFFFF",
+        "thickness": "2.0"
+      },
+      {
+        "name": "inferno",
+        "colorBackground": "#320508",
+        "colorStroke": "#FFE566",
+        "colorGlow": "#E5892D",
+        "thickness": "8.0"
+      },
+      {
+        "name": "mystery",
+        "colorBackground": "#080326",
+        "colorStroke": "#E5F2FF",
+        "colorGlow": "#8EC1CC",
+        "thickness": "4.0"
+      }
+
+]
