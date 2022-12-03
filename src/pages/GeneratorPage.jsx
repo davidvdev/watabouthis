@@ -12,6 +12,7 @@ import mStyles from '../../jsonStyles/mansion-styles.json'
 import vStyles from '../../jsonStyles/village-styles.json'
 import cStyles from '../../jsonStyles/cave-styles.json'
 import crStyles from '../../jsonStyles/compass-rose-styles.json'
+import sStyles from '../../jsonStyles/sigil-styles.json'
 
 const GeneratorPage = ({genType}) => {
 
@@ -65,6 +66,11 @@ const GeneratorPage = ({genType}) => {
                 styleLink = crStyles
                 generatorLink = 'https://watabou.itch.io/compass-rose-generator'
                 background = "url('./images/cr-blur.webp')"
+                return
+            case "sigil":
+                styleLink = sStyles
+                generatorLink = 'https://watabou.itch.io/sigil-generator'
+                background = "url('./images/s-blur.webp')"
                 return
             default:
                 break;
