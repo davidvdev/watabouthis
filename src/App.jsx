@@ -42,6 +42,9 @@ function App() {
         <Link to="/compass-rose" >
           <li className="compass-rose" onMouseOver={(event) => handleMouseOver(event.target.className)}>Compass Rose Styles</li>
         </Link>
+        <Link to="/sigil" >
+          <li className="sigil" onMouseOver={(event) => handleMouseOver(event.target.className)}>Sigil Styles</li>
+        </Link>
       </ul>
       <Footer />
     </div>
